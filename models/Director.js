@@ -2,17 +2,17 @@ const moongose=require('mongoose');
 const Schema=moongose.Schema;
 const DirectorSchema=new Schema({
     name:{
-      name:String,
+      type:'string',
       maxlength:60,
       minlength:2
     },
     surname:{
-      name:String,
+      type:'string',
       maxlength:60,
       minlength:2
     },
     bio:{
-      name:String,
+      type:'string',
       maxlength:60,
       minlength:2
     },
